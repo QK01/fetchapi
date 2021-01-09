@@ -1,0 +1,14 @@
+[
+    { 
+        "name" : "Bardia",
+        "job" : "JS Developer"
+    },
+    {
+        "name" : "Sadeq",
+        "job" : "Full stack Developer"
+    },
+    {
+        "name" : "Mostafa",
+        "job" : "React Developer"
+    }
+]
