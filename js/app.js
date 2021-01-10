@@ -1,6 +1,8 @@
 document.querySelector('#button1').addEventListener('click', loadData)
 document.querySelector('#button2').addEventListener('click', loadJSON)
 document.querySelector('#button3').addEventListener('click', loadAPI)
+document.querySelector('#button4').addEventListener('click', loadTest)
+
 
 function loadData(){
      fetch('../data.txt')
@@ -43,4 +45,9 @@ function loadAPI(){
         });
         document.querySelector('#result').innerHTML = html
     })
+}
+
+function loadTest(){
+    document.querySelector('#result').innerHTML = ''
+    
 }
